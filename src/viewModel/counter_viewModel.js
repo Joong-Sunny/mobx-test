@@ -8,7 +8,6 @@ const counterViewModel = observable({
   incrementCount(input) {
     counterStore.count += input
   },
-	counterHandelr(){}
 });
 
 export default counterViewModel;
